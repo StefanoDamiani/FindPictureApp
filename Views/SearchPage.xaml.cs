@@ -1,6 +1,3 @@
-using System;
-using System.Linq;
-using Microsoft.Maui.Controls;
 using PictureExplorer.Models;
 using PictureExplorer.ViewModels;
 

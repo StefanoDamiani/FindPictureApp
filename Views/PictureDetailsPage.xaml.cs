@@ -1,5 +1,3 @@
-using System.Collections.Generic;
-using Microsoft.Maui.Controls;
 using PictureExplorer.ViewModels;
 
 namespace PictureExplorer.Views;

@@ -1,7 +1,4 @@
-﻿using Microsoft.Maui;
-using Microsoft.Maui.Controls;
-
-namespace PictureExplorer;
+﻿namespace PictureExplorer;
 
 public partial class App : Application
 {

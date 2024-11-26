@@ -1,5 +1,4 @@
-﻿using Microsoft.Maui.Controls;
-using PictureExplorer.Services;
+﻿using PictureExplorer.Services;
 
 namespace PictureExplorer;
 
