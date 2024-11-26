@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PictureExplorer.Views.PictureDetailsPage"
+             Title="Picture">
+    <Grid RowDefinitions="*, 230">
+        <Image Grid.Row="0" 
+               Source="{Binding Url}" Aspect="AspectFit" VerticalOptions="CenterAndExpand" />
+        
+        <StackLayout Grid.Row="1"
+                     Padding="10"
+                     VerticalOptions="Fill">
+              <Label Text="Picture Details"
+                     FontSize="30"
+                     FontAttributes="Bold"
+                     HorizontalOptions="Center"
+                     Padding="20"/>
+              
+              <Label Text="{Binding Details.Title}"
+                     FontSize="20"
+                     TextColor="Gray"
+                     HorizontalOptions="Center"
+                     VerticalOptions="Start"
+                     HorizontalTextAlignment="Center"
+                     VerticalTextAlignment="Center" />
+       
+              <Label Text="{Binding Details.Owner}"
+                     FontSize="20"
+                     TextColor="Gray"
+                     HorizontalOptions="Center"
+                     VerticalOptions="Start"
+                     HorizontalTextAlignment="Center"
+                     VerticalTextAlignment="Center" />
+              
+              <Label Text="{Binding Details.Location}"
+                     FontSize="20"
+                     TextColor="Gray"
+                     HorizontalOptions="Center"
+                     VerticalOptions="Start"
+                     HorizontalTextAlignment="Center"
+                     VerticalTextAlignment="Center" />
+              
+              <Label Text="{Binding Details.Taken}"
+                     FontSize="20"
+                     TextColor="Gray"
+                     HorizontalOptions="Center"
+                     VerticalOptions="Start"
+                     HorizontalTextAlignment="Center"
+                     VerticalTextAlignment="Center" />
+        </StackLayout>
+    </Grid>
+</ContentPage>
